@@ -3,6 +3,12 @@ import pandas as pd
 import math
 from pathlib import Path
 
+st.set_page_config(
+    page_title="Blog.Viz",
+    layout="wide",  # or "centered"
+    initial_sidebar_state="collapsed"
+)
+
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
     page_title='Canada Busi Trends',
